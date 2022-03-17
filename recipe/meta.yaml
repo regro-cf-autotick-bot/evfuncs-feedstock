@@ -1,5 +1,5 @@
 {% set name = "evfuncs" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/evfuncs-{{ version }}.tar.gz
-  sha256: e786e2cf799214017c7f02d299a447724fee62aa38193b3682496d24df79ec28
+  sha256: d67d30dbd1009cfd9cec43f1d4ac39e72f4c0e6621c9865d4df7885a32e721ac
 
 build:
   number: 0
